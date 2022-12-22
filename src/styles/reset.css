@@ -1,0 +1,26 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --beige-200: ##FEF6DF;
+  --beige-500: #FEE7BDCC;
+  --orange: #C3543E;
+  --brown: #9D845A;
+  --gray: #4B4C52;
+}
+
+html{
+  font-size: 16px;
+  background-color: var(--beige-200);
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
